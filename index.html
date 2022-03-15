@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="m-4">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white fixed">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand" style="font-family: 'Josefin Sans', sans-serif; letter-spacing: 4px;">FLY</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li>
+                    <input type="text" class="search-click" name="" placeholder="search here..." maxlength="25" />
+                  </li>
+                   
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Our Trainers</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Become a trainer</a>
+                  </li>
+                  
+                    <li class="nav-item dropdown">
+                    
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Categories</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Type 1</a>
+                            <a href="#" class="dropdown-item">Type 2</a>
+                        </div>
+                    </li>
+                </ul>
+                
+                <ul class="nav navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><img src="img/connect-logo.png" height="30px" width="30px" alt="connect-img"></a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a href="#" class="dropdown-item">Log in</a>
+                            <a href="#" class="dropdown-item">Sign up</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item disabled">Log out</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+</div>
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/formation.jpg" height="400px" width="50%" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color:"white";">Formation 1</h5>
+        <p>Formation numero 1</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/formation.jpg"  height="400px" width="50%" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Formation 2</h5>
+        <p>Lorem numero 2</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/formation.jpg"  height="400px" width="50%" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Formation 3</h5>
+        <p>Formation numero 3</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</body>
+</html>
