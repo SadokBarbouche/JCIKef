@@ -55,3 +55,22 @@ footer{
 
 }
 
+.img-fluid{
+  border-radius: 10px;
+
+}
+.img-fluid{
+  border-radius: 10px;
+  transition: 0.5s;
+   
+}
+.img-fluid:hover{
+  transform: scale(1.04);
+}
+.col-6 {
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+}
+.col-6:hover{
+  filter: brightness(70%);
+}
